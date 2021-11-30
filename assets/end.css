@@ -1,0 +1,14 @@
+.btn {
+  font-size: 4rem;
+}
+#finalScore {
+  font-size: 4rem;
+}
+#highScoresList {
+  font-size: 4rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(1, 14, 16);
+  color: rgb(212, 212, 255);
+}
+
+#highScoresList {
+  list-style: none;
+  margin-bottom: 6rem;
+}
+
+.high-score {
+  font-size: 3.2rem;
+  margin-bottom: 0.8rem;
+}
