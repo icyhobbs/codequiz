@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/end.css">
+  <link rel="stylesheet" href="./assets/highscores.css">
   <title>High Score</title>
 </head>
 <body>
@@ -13,11 +14,14 @@
                   <h1 id="finalScore">0</h1>
                   <form class="end-form-container">
                       <h2 id="end-text">Enter Name </h2>
-                      <input type="text" name="name" id="username" placeholder="name">
+                      <input type="text" name="name" id="username" placeholder="Name">
                       <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>
                   </form>
+                  <div id = "control">
                   <a href="./game.html" class="btn">Play Again</a>
+                  </div>
                   <a href="./index.html" class="btn">Home</a>
+                  </div>
                 </div>
         </div>
         <script src="./assets/end.js"></script>
