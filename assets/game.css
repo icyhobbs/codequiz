@@ -6,11 +6,9 @@ body {
 .choice-container {
   display: flex;
   margin-bottom: 0.9rem;
-  width: 100%;
   border-radius: 4px;
   background: blue;
   font-size: 3rem;
-  min-width: 80rem;
 }
 .choice-container:hover {
   cursor: pointer;
@@ -36,7 +34,6 @@ body {
   background: red;
 }
 
-/* Heads up Display */
 #hud {
   display: flex;
   justify-content: space-between;
